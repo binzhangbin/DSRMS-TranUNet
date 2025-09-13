@@ -20,17 +20,20 @@ The official code for paper "DSRMS-TransUNet: A Decentralized Non-Shifted TransU
 
 ## 🔍 Future Contents  
 ```bash
-├── core_architecture/                 # Core model implementation
-│   ├── JCA-CNN.py                     # Joint Channel-Attention Convolutional Module
-│   └── Encoer.py                      # Dual-stage feature decoupling framework-Encoder
-│   └── Decoer.py                      # Dual-stage feature decoupling framework-Decoder
+├── core_architecture/                 # Backbone 
+│   ├── dstransunet.py                 
+│   └── rvit.py                        
+│   ...                                # Other benchmark network models 
 ├── pretrained_models/                 # Pre-trained weights
-│   ├── simulation_freq_model_M10.pth  # Simulated signal model
-│   └── simulation_freq_model_M20.pth  # Simulated signal model
+│   ├── simulation_dsrmstransunet.pth  # Simulation model for testing
+│   └── hlah_dsrmstransunet.pth        # SWellEx-96 HLAH model for testing
+│   └── hlas_dsrmstransunet.pth        # SWellEx-96 HLAS model for testing
 ├── training_scripts/                  # Training scripts
-│   ├── main_trian.py                  # Main script for simulated data training
-│   └── load_cov_matrix.py             # Parameters for simulated data loading
+│   ├── main_simulation_train.py       # Main script for simulation data training
+│   ├── main_real_train.py             # Main script for measured data (SWellEx-96 HLAH and HLAS) data training
+│   └── utils_load_dataset.py          # Parameters for data loading
 └── test_scripts/                      # Testing scripts
-│    └── main_test.py                  # Main script for simulated data testing
-├─── ...                               # Related code scripts
+│    └── main_simulation_test.py       # Main script for simulated data testing
+│    └── main_real_test.py             # Main script for measured data (SWellEx-96 HLAH and HLAS) testing
+├─── ...                               # Plot and evaluation methodology: Accurate, RMSE, Distribution, stratified K-fold cross-validation
 
