@@ -19,6 +19,10 @@
 >
 > Please indicate your affiliation and the purpose of your request in the
 > email, and we will get back to you as soon as possible.
+> 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🔍 Future Contents  
 ```bash
