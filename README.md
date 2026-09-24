@@ -3,17 +3,22 @@
 
 **This repository contains the official implementation for the paper "DSRMS-TransUNet: A Decentralized Non-Shifted TransUNet for Shallow Water Acoustic Source Range Estimation"**  
 
-## 📜 Current Status  
-- 🔒 Core code and experimental data are temporarily withheld to ensure data security and privacy  
-- 📊 All experimental results in the paper were obtained using the complete implementation in this repository  
-- ⚙️ Model architecture details are described in Section 2 (Proposed Method) of the paper  
-
-## 🚀 Release Plan  
-| Stage | Content | Timeline |
-|-------|---------|----------|
-| Paper Acceptance | Open-source basic framework code | Within 24 hours of acceptance |
-| Formal Publication | Release complete training/inference code | Upon paper online publication |
-| Supplementary Verification | Public benchmark dataset release | Within 24 hours of publication |
+## 📌 Code Availability Notice
+&gt; **Note:** The repository is currently under reorganization.
+&gt;
+&gt; Part of the implementation in this work is closely related to our ongoing
+&gt; follow-up research and is being refactored and cleaned up. Therefore, the
+&gt; complete source code, pretrained models (.pth), and test data are
+&gt; **temporarily not fully available** in this repository. We will update this
+&gt; repository once the related work is finished.
+&gt;
+&gt; In the meantime, if you need access to the **complete code, pretrained
+&gt; weights (.pth), and test data** of this paper, please contact:
+&gt;
+&gt; 📧 **zhangbin9145@stu.ouc.edu.cn**
+&gt;
+&gt; Please indicate your affiliation and the purpose of your request in the
+&gt; email, and we will get back to you as soon as possible.
 
 ## 🔍 Future Contents  
 ```bash
